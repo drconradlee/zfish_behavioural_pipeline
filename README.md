@@ -27,6 +27,6 @@ To run, simply input:
 <p> </p>
 
 ```
-python compress_and_seg.py -d <path_to_folder> -n <number of wells> -c <path\to\dlc\config\file> -s 0
+python bipeline.py -d <path_to_folder> -n <number of wells> -c <path\to\dlc\config\file> -s 0
 ```
 If errors are encounters, other input variable are avaliable to fine tune the segmentation. Several input parameters are avaliable and have been put on default for ease of use. A description of all input variables are avaliable on original documentation at https://github.com/drconradlee/zfish_video_segmentation and https://github.com/Scott-Lab-QBI/beh_video_processing.

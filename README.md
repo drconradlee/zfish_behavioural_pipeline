@@ -1,6 +1,6 @@
-# Pipeline for Zebrafish Behaviour (Bipeline)
+# Pipeline for Zebrafish Behaviour (Bipélìn)
 
-Complete module + executable for segmenting multiwell videos and tracking using Deep-Lab-Cut. This forms the behavioural pipeline (Bipeline) for the Scott Laboratory at the Queensland Brain Institute. This repository and code combines scripts from https://github.com/drconradlee/zfish_video_segmentation and https://github.com/Scott-Lab-QBI/beh_video_processing to minimize user interference. 
+Complete module + executable for segmenting multiwell videos and tracking using Deep-Lab-Cut. This forms the behavioural pipeline (Bipélìn) for the Scott Laboratory at the Queensland Brain Institute. This repository and code combines scripts from https://github.com/drconradlee/zfish_video_segmentation and https://github.com/Scott-Lab-QBI/beh_video_processing to minimize user interference. 
 
 <h2> Installation </h2>
 You can install all required packages by creating an environment with all dependencies with the included `environment.yml` file.

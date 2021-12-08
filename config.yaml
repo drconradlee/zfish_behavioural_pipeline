@@ -1,0 +1,362 @@
+    # Project definitions (do not edit)
+Task: ZF-kinematics-topview
+scorer: LAS
+date: Sep21
+multianimalproject:
+identity:
+
+    # Project path (change when moving around)
+project_path: C:\Behavioural_pipeline\test
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_09_comp_well_2.avi:
+    crop: 0, 474, 0, 478
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_09_comp_well_4.avi:
+    crop: 0, 472, 0, 484
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_1.avi:
+    crop: 0, 198, 0, 198
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_3.avi:
+    crop: 0, 194, 0, 198
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_5.avi:
+    crop: 0, 198, 0, 196
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_6.avi:
+    crop: 0, 192, 0, 198
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_7.avi:
+    crop: 0, 196, 0, 196
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_10.avi:
+    crop: 0, 198, 0, 200
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_11.avi:
+    crop: 0, 194, 0, 198
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_12.avi:
+    crop: 0, 194, 0, 200
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_11_comp_well_16.avi:
+    crop: 0, 196, 0, 192
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_12_comp_well_3.avi:
+    crop: 0, 222, 0, 226
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_12_comp_well_7.avi:
+    crop: 0, 226, 0, 230
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_12_comp_well_8.avi:
+    crop: 0, 230, 0, 230
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_12_comp_well_10.avi:
+    crop: 0, 228, 0, 226
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_12_comp_well_11.avi:
+    crop: 0, 230, 0, 232
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_12_comp_well_12.avi:
+    crop: 0, 226, 0, 226
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_13_comp_well_2.avi:
+    crop: 0, 276, 0, 282
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_13_comp_well_3.avi:
+    crop: 0, 266, 0, 272
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_14_comp_well_1.avi:
+    crop: 0, 270, 0, 294
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_14_comp_well_2.avi:
+    crop: 0, 282, 0, 282
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200831_Test_14_comp_well_3.avi:
+    crop: 0, 266, 0, 280
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_2_comp_well_1.avi:
+    crop: 0, 476, 0, 500
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_2_comp_well_2.avi:
+    crop: 0, 476, 0, 494
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_2_comp_well_3.avi:
+    crop: 0, 476, 0, 470
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_2_comp_well_4.avi:
+    crop: 0, 480, 0, 470
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_3_comp_well_1.avi:
+    crop: 0, 948, 0, 964
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_6_comp_well_12.avi:
+    crop: 0, 240, 0, 232
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_6_comp_well_14.avi:
+    crop: 0, 234, 0, 240
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_6_comp_well_15.avi:
+    crop: 0, 232, 0, 230
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_6_comp_well_16.avi:
+    crop: 0, 228, 0, 228
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_8_comp_well_4.avi:
+    crop: 0, 244, 0, 236
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_8_comp_well_5.avi:
+    crop: 0, 242, 0, 238
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_8_comp_well_6.avi:
+    crop: 0, 242, 0, 240
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_8_comp_well_7.avi:
+    crop: 0, 236, 0, 240
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_8_comp_well_12.avi:
+    crop: 0, 242, 0, 238
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_9_comp_well_6.avi:
+    crop: 0, 234, 0, 238
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_9_comp_well_12.avi:
+    crop: 0, 240, 0, 238
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200901_Test_9_comp_well_15.avi:
+    crop: 0, 240, 0, 234
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_1_Auditory_BWAP_comp_well_2.avi:
+    crop: 0, 478, 0, 468
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_1_Auditory_BWAP_comp_well_3.avi:
+    crop: 0, 470, 0, 464
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_2_Auditory_BWAP_comp_well_1.avi:
+    crop: 0, 480, 0, 476
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_2_Auditory_BWAP_comp_well_2.avi:
+    crop: 0, 474, 0, 466
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_2_Auditory_BWAP_comp_well_4.avi:
+    crop: 0, 466, 0, 470
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_3_Auditory_comp_well_1.avi:
+    crop: 0, 484, 0, 470
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_3_Auditory_comp_well_2.avi:
+    crop: 0, 470, 0, 476
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_3_Auditory_comp_well_3.avi:
+    crop: 0, 464, 0, 468
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_3_Auditory_comp_well_4.avi:
+    crop: 0, 466, 0, 458
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_4_Auditory_comp_well_1.avi:
+    crop: 0, 474, 0, 476
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_4_Auditory_comp_well_2.avi:
+    crop: 0, 480, 0, 482
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_4_Auditory_comp_well_3.avi:
+    crop: 0, 468, 0, 478
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200907_Test_4_Auditory_comp_well_4.avi:
+    crop: 0, 466, 0, 470
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_2_well_1.avi:
+    crop: 0, 478, 0, 480
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_2_well_4.avi:
+    crop: 0, 472, 0, 480
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_3_well_1.avi:
+    crop: 0, 474, 0, 466
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_3_well_2.avi:
+    crop: 0, 472, 0, 474
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_3_well_4.avi:
+    crop: 0, 488, 0, 478
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_4_BWAP_well_1.avi:
+    crop: 0, 474, 0, 474
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_4_BWAP_well_2.avi:
+    crop: 0, 480, 0, 472
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_4_BWAP_well_3.avi:
+    crop: 0, 464, 0, 470
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_5_BWAP_well_3.avi:
+    crop: 0, 472, 0, 472
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_5_BWAP_well_4.avi:
+    crop: 0, 472, 0, 470
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_6_BWAP_well_3.avi:
+    crop: 0, 470, 0, 480
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_6_BWAP_well_4.avi:
+    crop: 0, 480, 0, 490
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_7_petri_well_1.avi:
+    crop: 0, 882, 0, 882
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_8_petri_well_1.avi:
+    crop: 0, 890, 0, 884
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_9_petri_well_1.avi:
+    crop: 0, 898, 0, 892
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200909_latest_test_10_petri_well_1.avi:
+    crop: 0, 912, 0, 884
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test1_spont_well_2.avi:
+    crop: 0, 464, 0, 464
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test1_spont_well_3.avi:
+    crop: 0, 466, 0, 468
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test1_spont_well_4.avi:
+    crop: 0, 468, 0, 468
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test2_BWAP_well_2.avi:
+    crop: 0, 462, 0, 474
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test2_BWAP_well_3.avi:
+    crop: 0, 472, 0, 472
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test2_BWAP_well_4.avi:
+    crop: 0, 472, 0, 482
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test3_PPITTRS_well_1.avi:
+    crop: 0, 472, 0, 470
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test3_PPITTRS_well_2.avi:
+    crop: 0, 464, 0, 476
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test3_PPITTRS_well_3.avi:
+    crop: 0, 462, 0, 468
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test3_PPITTRS_well_4.avi:
+    crop: 0, 470, 0, 472
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test4_PPITTRS_well_1.avi:
+    crop: 0, 466, 0, 472
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200917_Test4_PPITTRS_well_2.avi:
+    crop: 0, 466, 0, 472
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200918_Test_1_OMR_well_1.avi:
+    crop: 0, 480, 0, 478
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200918_Test_1_OMR_well_2.avi:
+    crop: 0, 484, 0, 474
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200918_Test_1_OMR_well_3.avi:
+    crop: 0, 482, 0, 476
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200918_Test_1_OMR_well_4.avi:
+    crop: 0, 480, 0, 472
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\IF_20200907_Spontaneous_3_comp_well_1.avi:
+    crop: 0, 242, 0, 246
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\IF_20200907_Spontaneous_3_comp_well_2.avi:
+    crop: 0, 244, 0, 246
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\IF_20200907_Spontaneous_3_comp_well_3.avi:
+    crop: 0, 250, 0, 248
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\IF_20200907_Spontaneous_3_comp_well_6.avi:
+    crop: 0, 248, 0, 250
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\IF_20200907_Spontaneous_3_comp_well_7.avi:
+    crop: 0, 246, 0, 246
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\IF_20200907_Spontaneous_3_comp_well_11.avi:
+    crop: 0, 248, 0, 252
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\IF_20200907_Spontaneous_3_comp_well_12.avi:
+    crop: 0, 244, 0, 244
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\LC_Rfish38_comp.avi:
+    crop: 0, 484, 0, 304
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\LC_Rfish31_comp.avi:
+    crop: 0, 484, 0, 304
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\LC_Tfish36_comp.avi:
+    crop: 0, 484, 0, 304
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\LC_Tfish38_comp.avi:
+    crop: 0, 484, 0, 304
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\LC_Tfish31_comp.avi:
+    crop: 0, 484, 0, 304
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20200924_Test1_OMR.avi:
+    crop: 1073, 1543, 300, 800
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int204\20201008_g1tw_Test3_well_4.avi:
+    crop: 0, 230, 0, 234
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int204\20201008_wtg2_Test1_well_16.avi:
+    crop: 0, 242, 0, 240
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int153\20201009_g2tw_Test1_well_12.avi:
+    crop: 0, 238, 0, 242
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int153\20201002_g1tw_Test1_well_8.avi:
+    crop: 0, 224, 0, 220
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int153\20201002_wtg1_Test2_well_8.avi:
+    crop: 0, 230, 0, 224
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int51\20201009_wtg2_Test2_well_4.avi:
+    crop: 0, 244, 0, 240
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int51\20201008_g2tw_Test2_well_1.avi:
+    crop: 0, 236, 0, 240
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int51\20201008_wtg1_Test4_well_16.avi:
+    crop: 0, 236, 0, 240
+  D:\Workspace_data_to_process\Luminance_tests\well_videos\int51\20201008_wtg2_Test1_well_4.avi:
+    crop: 0, 236, 0, 232
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test1_RampLoom_well_1.avi:
+    crop: 0, 496, 0, 504
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test1_RampLoom_well_2.avi:
+    crop: 0, 502, 0, 502
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test1_RampLoom_well_3.avi: crop:0,
+    498, 0, 494
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test1_RampLoom_well_4.avi:
+    crop: 0, 500, 0, 504
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test2_Spont_RampLoom_well_1.avi:
+    crop: 0, 492, 0, 500
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test2_Spont_RampLoom_well_2.avi:
+    crop: 0, 496, 0, 508
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test2_Spont_RampLoom_well_3.avi:
+    crop: 0, 494, 0, 494
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test2_Spont_RampLoom_well_4.avi:
+    crop: 0, 498, 0, 500
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test3_OMR_well_1.avi:
+    crop: 0, 492, 0, 504
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test3_OMR_well_2.avi:
+    crop: 0, 496, 0, 504
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test3_OMR_well_3.avi:
+    crop: 0, 494, 0, 498
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20201117_Test3_OMR_well_4.avi:
+    crop: 0, 494, 0, 500
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20210332_DarkLoom_Dish_Test2.avi:
+    crop: 0, 820, 0, 810
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20210332_DarkLoom_Dish_Test3.avi:
+    crop: 0, 820, 0, 810
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\202101_NicholasGuilbeault_UToronto_samples\video1.avi:
+    crop: 0, 500, 0, 500
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\202101_NicholasGuilbeault_UToronto_samples\video2.avi:
+    crop: 0, 1088, 0, 1088
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\202101_NicholasGuilbeault_UToronto_samples\video3.avi:
+    crop: 0, 560, 0, 460
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\202101_NicholasGuilbeault_UToronto_samples\video4.avi:
+    crop: 0, 1088, 0, 1088
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\60mm_well_single_fish\20210303_60mmwell_Test1.avi:
+    crop: 0, 1088, 0, 1080
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\60mm_well_single_fish\20210303_60mmwell_Test2.avi:
+    crop: 0, 1088, 0, 1080
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20210625_dyncrop_sample_10.avi:
+    crop: 0, 300, 0, 300
+  #D:\Workspace_data_to_process\Extensive_training_DLC_dataset\CL_F0.2_90dB_sample_1.avi:
+  #  crop: 0, 258, 0, 258    
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\CL_F0.2_90dB_sample_2.avi:
+    crop: 0, 258, 0, 258
+  D:\Workspace_data_to_process\Extensive_training_DLC_dataset\20210703_Fish_39_cropped_lowres.avi:
+    crop: 0, 200, 0, 200
+
+bodyparts:
+- swim_bladder
+- tail_1
+- tail_2
+- tail_3
+- tail_4
+- tail_5
+- tail_6
+- tail_7
+- tail_8
+- tail_9
+- tail_10
+- R_eye_top
+- R_eye_bottom
+- L_eye_top
+- L_eye_bottom
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - swim_bladder
+  - tail_1
+- - tail_1
+  - tail_2
+- - tail_2
+  - tail_3
+- - tail_3
+  - tail_4
+- - tail_4
+  - tail_5
+- - tail_5
+  - tail_6
+- - tail_6
+  - tail_7
+- - tail_7
+  - tail_8
+- - tail_8
+  - tail_9
+- - tail_9
+  - tail_10
+- - R_eye_top
+  - R_eye_bottom
+- - L_eye_top
+  - L_eye_bottom
+- - swim_bladder
+  - R_eye_top
+- - swim_bladder
+  - R_eye_bottom
+- - swim_bladder
+  - L_eye_top
+- - swim_bladder
+  - L_eye_bottom
+- - R_eye_top
+  - L_eye_top
+- - R_eye_bottom
+  - L_eye_bottom
+skeleton_color: white
+pcutoff: 0.95
+dotsize: 1
+alphavalue: 0.5
+colormap: jet
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.80
+#iteration: 4
+iteration: 5
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: 3
+batch_size: 100
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+croppedtraining:
+resnet:
